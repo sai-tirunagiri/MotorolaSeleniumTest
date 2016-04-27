@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<httpSample t="2093" lt="2093" ts="1459784043216" s="true" lb="Testing_For_API_Response" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="250" ng="1" na="1"/>
+<httpSample t="373" lt="373" ts="1459784045358" s="true" lb="Post_Data_To_API" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="590" ng="1" na="1"/>
+
+<httpSample t="2572" lt="2572" ts="1459784122125" s="true" lb="Testing_For_API_Response" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="250" ng="1" na="1"/>
+<httpSample t="832" lt="832" ts="1459784124716" s="true" lb="Post_Data_To_API" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="590" ng="1" na="1"/>
+
+</testResults>

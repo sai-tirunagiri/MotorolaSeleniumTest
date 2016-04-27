@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="none">
+  <test name="Test(failed)" parallel="none">
+    <classes>
+      <class name="org.quinnox.verifyRest.VerifyRestTest">
+        <methods>
+          <include name="configBeforeClass"/>
+        </methods>
+      </class> <!-- org.quinnox.verifyRest.VerifyRestTest -->
+      <class name="org.quinnox.validateData.ValidateDataTest">
+        <methods>
+          <include name="configBeforeClass"/>
+        </methods>
+      </class> <!-- org.quinnox.validateData.ValidateDataTest -->
+      <class name="org.quinnox.validateInvalidPostData.ValidateInvalidPostData">
+        <methods>
+          <include name="validateInavlidPostRequest"/>
+          <include name="configBeforeClass"/>
+        </methods>
+      </class> <!-- org.quinnox.validateInvalidPostData.ValidateInvalidPostData -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
